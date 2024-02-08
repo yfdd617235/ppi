@@ -1,0 +1,210 @@
+
+#navbar{
+    position: fixed;
+    top: 0; 
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#cname{
+    margin-left: 2%;
+}
+
+#cname:hover{
+    color: rgb(26, 140, 22, 255);
+    
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+#contract{
+    color: #06500C;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#polarArea{
+    margin: 5%;
+}
+
+#jumbotron{
+    margin-bottom: 0;
+    height: 500px;
+    width: 100%;
+    
+    /* border: solid white; */
+    /* background-image: url('banner1.png'); */
+    /* background: linear-gradient(to bottom, #00261C, black); */
+    /* background-image: linear-gradient(to bottom, transparent, black), url("banner.webp"); */
+    background-image: linear-gradient(to top, transparent, rgb(0, 0, 0)), linear-gradient(to bottom, transparent, black), url("banner.webp");
+    /* background-image: linear-gradient(black, transparent 50%, black), url("banner.webp"); */
+    /* background-size: contain; */
+    background-position: center center;
+    /* background-repeat: no-repeat;  */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    
+}
+
+#jumbotron h3, p{
+    color: white;
+}
+
+#customer{
+    display: flex;
+    padding-left: 1%;
+    /* border: solid white; */
+    /* justify-content: center; */
+}
+
+#data{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border: solid white;
+}
+
+.table-custom{
+    width: 100%;
+    color: white;
+    /* border: 1px solid #ddd; Cambio de bordes para las celdas */
+}
+
+.table-custom th{
+    color: white;
+    padding: 8px;
+    border: 1px solid rgba(61, 78, 57, 0.486);
+}
+
+#tableRows td {
+    padding: 8px; /* Cambio de espaciado para las celdas */
+    border: 1px solid rgba(61, 78, 57, 0.486); /* Cambio de bordes para las celdas */
+  }
+
+.btn-custom {
+    background-color: rgb(0, 44, 0); 
+    color: white; /* Cambia el color del texto para que sea legible en el fondo verde */
+  }
+  
+  .btn-custom:hover {
+    background-color: rgb(26, 140, 22, 255); /* Cambia el color de fondo en el estado hover */
+  }
+
+#card{
+    margin: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: solid; */
+}
+
+#card h6{
+    color: white;
+}
+
+#contractId{
+    font-size: smaller;
+    text-align: left;
+    color: gray;
+}
+
+#btn-container{
+    /* border: solid white; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+#prefooter{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: smaller;
+    /* border: solid; */
+    /* background: linear-gradient(to top, #00261ca6, black); */
+    background-image: linear-gradient(to top, transparent, black), linear-gradient(to bottom, transparent, black), url("banner.webp");
+}
+
+#logoT{
+    height: 300px;
+}
+
+/* #logoT:hover{
+    background-color: #00261C;
+} */
+
+#col2, #col3{
+    text-align: left ;
+    /* border: solid; */
+    min-width: 279px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer, hr{
+    padding-top: 1px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #data, footer {
+        font-size:x-small; /* Tamaño de fuente ajustado para dispositivos móviles */
+    }
+
+    #navbar{
+        font-size: smaller;
+    }
+
+    #btndlr{
+        font-size: smaller;
+    }
+}
+
+
+
+/* INDEX */
+
+#body1{
+    background-image: linear-gradient(to top, transparent, black), linear-gradient(to bottom, transparent, black), url("banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#bodyIndex{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#password{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#passwordInput{
+    width: 50%;
+    background-color: black;
+    color: #06500C;
+    border: none;
+
+}
+
